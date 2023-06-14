@@ -45,3 +45,14 @@ end
 
 puts decode_word('-- -.--')
 
+def decode(word)
+  splitted = word.split('   ')
+  words = ''
+  splitted.each do |s|
+    words += "#{decode_word(s)} "
+  end
+  words
+end
+
+puts decode('-- -.--   -. .- -- .')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
