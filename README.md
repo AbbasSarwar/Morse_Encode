@@ -29,7 +29,7 @@
 
 # 📖 [Morse Encode] <a name="about-project"></a>
 
-**[Morse Encode]** is a Ruby project to encode symbols to Alphabetics.
+**[Morse Encode]** is a Encoding project built in Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
